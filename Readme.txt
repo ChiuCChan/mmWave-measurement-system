@@ -1,16 +1,22 @@
-==================Title==================
+=============Title=======================
 Open-Source and Low-Cost Test Bed for Automated 5G Channel Measurement in mmWave Band
 
-==================Movitation==================
+=============Movitation==================
 To provide an affordable and open-source test-bed solution for mmWave channel modeling 
 covering 24 GHz and 77 GHz bands. 
 
-==================Built with Arduino==================
+=============Built with Arduino==========
 
 
+=============Specification==========
+Carrier frequnecy	24GHz		77GHz
+Signal bandwidth	15kHz		0.15MHz
+Transmit power		20 +/- 1 dBm    9 +/- 2 dBm
+Antenna Gain		20 dB		20 dB
+H-plane beamwidth	80 deg		15 deg
+E-plane beamwidth	12 deg		15 deg
 
-
-==================Library used==================
+=============Library used================
 ---24 Ghz module---
 Wire.h Adafruit_MCP4725.h stdlib.h
 
@@ -22,7 +28,7 @@ Wire.h Adafruit_MCP4725.h stdlib.h
 <RF24.h> <SPI.h>
 
 
-==================Electronics BoQ==================
+===========Electronics BoQ================
 RS232+BT x2
 Op Amp x2
 Arduino nano x2
@@ -39,7 +45,7 @@ Power regulator (YL105) x2
 XY42STH34-1504A (High Stepper motor) x2
 
 
-==================Pin setup==================
+==================Pin setup================
 ---24 GHz module---
 A0<->KLC6 Output
 
@@ -61,7 +67,7 @@ Pin 53 <-> Nf24L01 CSpin
 Pin 52 <-> NF24L01 CEpin
 Pin 53 <-> Nf24L01 CSpin
 
-==================How to use?==================
+=============How to use?====================
 comply different programs with respect to the corresponding unit.
 
 For 77GHz radar measurement, RS232<->TTL modules are required for communication between Base Unit and 77GHz radar.
