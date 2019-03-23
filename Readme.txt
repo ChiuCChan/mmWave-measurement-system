@@ -11,7 +11,7 @@ covering 24 GHz and 77 GHz bands.
 =============Specification==========
 Carrier frequnecy	24GHz		77GHz
 Signal bandwidth	15kHz		0.15MHz
-Transmit power		20 +/- 1 dBm    9 +/- 2 dBm
+Transmit power		20 +/- 1 dBm    25 +/- 2 dBm
 Antenna Gain		20 dB		20 dB
 H-plane beamwidth	80 deg		15 deg
 E-plane beamwidth	12 deg		15 deg
