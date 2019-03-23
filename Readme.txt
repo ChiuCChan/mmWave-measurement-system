@@ -22,7 +22,7 @@ Wire.h Adafruit_MCP4725.h stdlib.h
 <RF24.h> <SPI.h>
 
 
-==================Electronics==================
+==================Electronics BoQ==================
 RS232+BT x2
 Op Amp x2
 Arduino nano x2
@@ -72,13 +72,13 @@ Run the BaseStation program and log into the Base Station CLI using arduino IDE 
 Using the following command to control the base unit, 77GHz, 24GHz radars.
 
 //          Command                   Code             Respond
-//          Force initialization      NNM01#          îOKî
-//          Reset angle               NNM02#          îOKî
+//          Force initialization      NNM01#          ‚ÄùOK‚Äù
+//          Reset angle               NNM02#          ‚ÄùOK‚Äù
 //          Get status                NNM03#           <text>
 //          Get coordinates           NNM04#           S dd.dd / E ddd.dd
 //          Get current angle         NNM05#            +/- ssss
 //          relay                     NNM06<text>#      "Sent"
-//          Go to angle               NNM10(+/-)ssss#   îGo to +/- ssssî
+//          Go to angle               NNM10(+/-)ssss#   ‚ÄùGo to +/- ssss‚Äù
 //          Set 24GHz VCO voltage     NNM23VV#          "Set VCO to VV"
 //	    Perform Sweeping from     NNM22VVVV#	Measurement data
 	    VV to VV
